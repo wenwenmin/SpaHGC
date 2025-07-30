@@ -9,27 +9,12 @@ We conducted comprehensive benchmarking on seven histology-ST datasets from diff
 ![Overview.png](Overview.png)
 
 ## Installations
-- NVIDIA GPU (a single Nvidia GeForce RTX 3090)
+- NVIDIA GPU (a single Nvidia GeForce RTX 4090)
 - `pip install -r requiremnt.txt`
-
-## Data
 
 
 ## Getting access
 The ViT architecture utilizes a self-pretrained model called UNI. You need to request access to the model weights from the Huggingface model page at:[https://huggingface.co/mahmoodlab/UNI](https://huggingface.co/mahmoodlab/UNI). It is worth noting that you need to apply for access to UNI login and replace it in the [demo.ipynb](demo.ipynb).
 
-## Running demo
-We provide a examples for predicting super-resolution gene expression data of 10X Visium human dorsolateral prefrontal cortex tissue, please refer to [demo.ipynb](demo.ipynb).
-
-## Baselines
-We have listed the sources of some representative baselines below, and we would like to express our gratitude to the authors of these baselines for their generous sharing.
-
-- [iStar](https://github.com/daviddaiweizhang/istar) super-resolution gene expression from hierarchical histological features using a feedforward neural network. 
-- [XFuse](https://github.com/ludvb/xfuse) integrates Spatial transcriptomics (ST) data and histology images using a deep generative model to infer super-resolution gene expression profiles. 
-- [TESLA](https://github.com/jianhuupenn/TESLA) generates high-resolution gene expression profiles based on Euclidean distance metric, which considers the similarity in physical locations and histology image features between superpixels and measured spots.
-- [STAGE](https://github.com/zhanglabtools/STAGE) to generate gene expression data for unmeasured spots or points from Spatial Transcriptomics with a spatial location-supervised Auto-encoder GEnerator by integrating spatial information and gene expression data. 
-
-## Acknowledgements
-Part of the code, such as the training framework based on pytorch lightning and the method for mask image in this repository is adapted from the [EGGN](https://github.com/Yan98/EGN). And the Vision Transformer in this repository has been pre-trained by [UNI](https://github.com/mahmoodlab/UNI). We are grateful to the authors for their excellent work.
 
 
