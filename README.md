@@ -30,6 +30,6 @@ We have listed the sources of some representative baselines below, and we would 
 - [STAGE](https://github.com/zhanglabtools/STAGE) to generate gene expression data for unmeasured spots or points from Spatial Transcriptomics with a spatial location-supervised Auto-encoder GEnerator by integrating spatial information and gene expression data. 
 
 ## Acknowledgements
-Part of the code, such as the training framework based on pytorch lightning and the method for mask image in this repository is adapted from the [EGGN]([https://github.com/Yan98/EGN]). And the Vision Transformer in this repository has been pre-trained by [UNI](https://github.com/mahmoodlab/UNI). We are grateful to the authors for their excellent work.
+Part of the code, such as the training framework based on pytorch lightning and the method for mask image in this repository is adapted from the [EGGN](https://github.com/Yan98/EGN). And the Vision Transformer in this repository has been pre-trained by [UNI](https://github.com/mahmoodlab/UNI). We are grateful to the authors for their excellent work.
 
 
