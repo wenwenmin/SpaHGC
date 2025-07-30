@@ -1,4 +1,4 @@
-# SpaHGC
+# SpaHGC:Cross-Slice Knowledge Transfer via Masked Multi-Modal Heterogeneous Graph Contrastive Learning for Spatial Gene Expression Inference
 ## Overview
 While spatial transcriptomics (ST) has advanced our understanding of gene expression within tissue context, its high experimental cost limits large-scale application. Predicting ST gene expression from pathology images offers a promising, cost-effective alternative, yet existing methods often struggle to capture the complex spatial relationships across slides. 
 To address the challenge, we propose SpaHGC, a multi-modal heterogeneous graph-based model that captures both intra-slice and inter-slice spot-spot relationships from histology images. 
@@ -10,7 +10,6 @@ We conducted comprehensive benchmarking on seven histology-ST datasets from diff
 
 ## Installations
 - NVIDIA GPU (a single Nvidia GeForce RTX 4090)
-- `pip install -r requiremnt.txt`
 
 
 ## Getting access
