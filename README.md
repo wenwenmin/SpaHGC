@@ -23,12 +23,12 @@ This project utilizes **seven publicly available ST datasets** from different pl
 | Dataset Name   | Tissue / Cancer Type                  | Platform       | Subtype     | #Samples | Source      |
 |----------------|----------------------------------------|----------------|-------------|----------|-------------|
 | cSCC           | Human skin squamous cell carcinoma     | Traditional ST | –           | 12       | [cSCC](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144240)    |
-| HER2+          | Breast cancer                          | Traditional ST | HER2+       | 36       | [HER2+]([#](https://github.com/almaan/her2st/))   |
-| Alex           | Breast cancer                          | Visium         | TNBC        | 4        | [Alex]([#](https://doi.org/10.48610/4fb74a9))    |
-| Visium BC      | Breast cancer                          | Visium         | HER2+       | 3        | [VisiumBC]([#](https://doi.org/10.48610/4fb74a9))|
-| HEST-1K (Lymph node)   | Lymph node                             | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
-| HEST-1K (Pancreas1)      | Pancreatic cancer                      | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
-| HEST-1K (Pancreas2)      | Pancreatic cancer                      | Visium         | –           | 3        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| HER2+          | Breast cancer                          | Traditional ST | HER2+       | 36       | [HER2+](https://github.com/almaan/her2st/)   |
+| Alex           | Breast cancer                          | Visium         | TNBC        | 4        | [Alex](https://doi.org/10.48610/4fb74a9)    |
+| Visium BC      | Breast cancer                          | Visium         | HER2+       | 3        | [VisiumBC](https://doi.org/10.48610/4fb74a9)|
+| HEST-1K (Lymph node)   | Lymph node                             | Visium         | –           | 4        | [HEST-1K](https://github.com/mahmoodlab/hest)  |
+| HEST-1K (Pancreas1)      | Pancreatic cancer                      | Visium         | –           | 4        | [HEST-1K](https://github.com/mahmoodlab/hest)  |
+| HEST-1K (Pancreas2)      | Pancreatic cancer                      | Visium         | –           | 3        | [HEST-1K](https://github.com/mahmoodlab/hest)  |
 
 
 ## Running demo
