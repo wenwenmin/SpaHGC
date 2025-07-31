@@ -32,7 +32,6 @@ This study utilizes **seven publicly available ST datasets** from different plat
 
 
 ## 🚀 Running demo
-
-
+We provide an example for predicting gene expression data of the cSCC dataset. Please refer to [ViscSCC.ipynb](ViscSCC.ipynb).
 
 
