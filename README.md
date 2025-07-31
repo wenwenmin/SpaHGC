@@ -20,7 +20,7 @@ This study utilizes **seven publicly available ST datasets** from different plat
 
 ### 🔬 Datasets Overview
 
-| Dataset Name   | Tissue / Cancer Type                  | Platform       | Subtype     | #Samples | Source      |
+| Dataset Name   | Tissue / Cancer Type                  | Platform       | Subtype     | #Samples Num | Source      |
 |----------------|----------------------------------------|----------------|-------------|----------|-------------|
 | cSCC           | Human skin squamous cell carcinoma     | Traditional ST | –           | 12       | [cSCC](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144240)    |
 | HER2+          | Breast cancer                          | Traditional ST | HER2+       | 36       | [HER2+](https://github.com/almaan/her2st/)   |
