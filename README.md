@@ -10,10 +10,29 @@ We conducted comprehensive benchmarking on seven histology-ST datasets from diff
 
 ## Installations
 - NVIDIA GPU (a single Nvidia GeForce RTX 4090)
-
+- `pip install -r requiremnt.txt`
 
 ## Getting access
 The ViT architecture utilizes a self-pretrained model called UNI. You need to request access to the model weights from the Huggingface model page at:[https://huggingface.co/mahmoodlab/UNI](https://huggingface.co/mahmoodlab/UNI). It is worth noting that you need to apply for access to UNI login and replace it in the [demo.ipynb](demo.ipynb).
+
+## 📁 Data
+This project utilizes **seven publicly available ST datasets** from different platforms and tissue types to comprehensively evaluate the performance and generalizability of **SpaHGC**. All datasets are open-access and can be obtained through the corresponding publications or repositories.
+
+### 🔬 Datasets Overview
+
+| Dataset Name   | Tissue / Cancer Type                  | Platform       | Subtype     | #Samples | Source      |
+|----------------|----------------------------------------|----------------|-------------|----------|-------------|
+| cSCC           | Human skin squamous cell carcinoma     | Traditional ST | –           | 12       | [cSCC]([#](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144240))    |
+| HER2+          | Breast cancer                          | Traditional ST | HER2+       | 36       | [HER2+]([#](https://github.com/almaan/her2st/))   |
+| Alex           | Breast cancer                          | Visium         | TNBC        | 4        | [Alex]([#](https://doi.org/10.48610/4fb74a9))    |
+| Visium BC      | Breast cancer                          | Visium         | HER2+       | 3        | [VisiumBC]([#](https://doi.org/10.48610/4fb74a9))|
+| HEST-1K (LN)   | Lymph node                             | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| Pancreas1      | Pancreatic cancer                      | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| Pancreas2      | Pancreatic cancer                      | Visium         | –           | 3        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+
+
+## Running demo
+
 
 
 
