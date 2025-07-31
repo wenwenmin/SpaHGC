@@ -26,9 +26,9 @@ This project utilizes **seven publicly available ST datasets** from different pl
 | HER2+          | Breast cancer                          | Traditional ST | HER2+       | 36       | [HER2+]([#](https://github.com/almaan/her2st/))   |
 | Alex           | Breast cancer                          | Visium         | TNBC        | 4        | [Alex]([#](https://doi.org/10.48610/4fb74a9))    |
 | Visium BC      | Breast cancer                          | Visium         | HER2+       | 3        | [VisiumBC]([#](https://doi.org/10.48610/4fb74a9))|
-| HEST-1K (LN)   | Lymph node                             | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
-| Pancreas1      | Pancreatic cancer                      | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
-| Pancreas2      | Pancreatic cancer                      | Visium         | –           | 3        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| HEST-1K (Lymph node)   | Lymph node                             | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| HEST-1K (Pancreas1)      | Pancreatic cancer                      | Visium         | –           | 4        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
+| HEST-1K (Pancreas2)      | Pancreatic cancer                      | Visium         | –           | 3        | [HEST-1K]([#](https://github.com/mahmoodlab/hest))  |
 
 
 ## Running demo
